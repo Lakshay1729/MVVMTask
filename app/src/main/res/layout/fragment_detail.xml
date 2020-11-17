@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="17dp"
+    tools:context=".ui.main.OffersFragment">
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="match_parent"
+      android:layout_height="230dp"
+      android:src="@android:drawable/btn_dialog"
+      android:id="@+id/details_imageview"
+      android:layout_marginTop="50dp"
+      >
+  </androidx.appcompat.widget.AppCompatImageView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/description_title"
+        android:fontFamily="sans-serif-medium"
+        android:text="Descriptions"
+        >
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="This is the description"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/description_body"
+        >
+
+    </androidx.appcompat.widget.AppCompatTextView>
+</LinearLayout>
